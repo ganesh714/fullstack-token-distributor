@@ -60,10 +60,9 @@ cp .env.example .env
 Ensure your `.env` contains:
 
 ```ini
-VITE_RPC_URL=[https://eth-sepolia.g.alchemy.com/v2/YOUR_ALCHEMY_KEY](https://eth-sepolia.g.alchemy.com/v2/YOUR_ALCHEMY_KEY)
+VITE_RPC_URL=https://sepolia.infura.io/v3/7b04f9e8380b42c48f1f98f27b794808
 VITE_TOKEN_ADDRESS=0xc5504DF5631A410B2e0fD3407eaF7C84f126fDc3
 VITE_FAUCET_ADDRESS=0xa25370a1758724a62650F41756FDFB82B3ebAEc0
-
 ```
 
 ### 3. Run the Application
