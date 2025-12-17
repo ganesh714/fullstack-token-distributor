@@ -3,8 +3,8 @@ pragma solidity ^0.8.20;
 
 import "./Token.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
-import "@openzeppelin/contracts/security/Pausable.sol";
+import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
+import "@openzeppelin/contracts/utils/Pausable.sol";
 
 contract TokenFaucet is Ownable, ReentrancyGuard, Pausable {
     FaucetToken public token;
